@@ -1,0 +1,10 @@
+.contact-form {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* text-align: left; */
+  align-content: center;
+  background-color: #ebdef7;
+  /* padding: 10vh 15%; */
+  border-radius: 5%;
+}

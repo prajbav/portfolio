@@ -1,0 +1,93 @@
+/* #skillsContainer {
+  background-color: whitesmoke;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 52%);
+  position: absolute;
+  z-index: -1;
+} */
+.clipback {
+  /* background-image: linear-gradient(to right, rgb(89 97 116), #e6e3de); */
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  align-content: center; */
+  background-color: yellowgreen;
+  clip-path: polygon(0 0, 48% 100%, 100% 0);
+}
+.tech {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* text-align: left; */
+  align-content: center;
+  background-color: #ebdef7;
+  /* padding: 10vh 15%; */
+  border-radius: 5%;
+}
+/* progress : linear-gradient(89deg, #c0c0e9 90%, #e9eced 90%) */
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(44, 23, 56);
+  background: linear-gradient(89deg, #eed7e9 0%, #daf0f3 100%);
+
+  padding: 1.4em;
+  height: 3rem;
+  /* width: 40%; */
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: inset 0 3px 6px rgb(76 80 177), 0 4px 6px rgb(79 98 221 / 45%);
+  border-radius: 10px;
+}
+.skills-stack {
+  width: 70%;
+}
+.skills-stack .skill-icon {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+.tools-stack {
+  width: 30%;
+}
+
+.skills-stack,
+.tools-stack {
+  /* max-width: 1200px; */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  flex-wrap: wrap;
+  align-content: center;
+  border-radius: 5%;
+  /* padding-top: 7vh; */
+
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  animation-name: moveInDown;
+  animation-timing-function: ease-out;
+  animation-duration: 1s; */
+}
+
+@keyframes moveInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  80% {
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
