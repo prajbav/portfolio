@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/prajaktabavikar/static/css/main.0f46c185.chunk.css",
-    "main.js": "/prajaktabavikar/static/js/main.92a966d8.chunk.js",
-    "main.js.map": "/prajaktabavikar/static/js/main.92a966d8.chunk.js.map",
-    "runtime-main.js": "/prajaktabavikar/static/js/runtime-main.1cd59596.js",
-    "runtime-main.js.map": "/prajaktabavikar/static/js/runtime-main.1cd59596.js.map",
-    "static/js/2.0657ed4e.chunk.js": "/prajaktabavikar/static/js/2.0657ed4e.chunk.js",
-    "static/js/2.0657ed4e.chunk.js.map": "/prajaktabavikar/static/js/2.0657ed4e.chunk.js.map",
-    "index.html": "/prajaktabavikar/index.html",
-    "static/css/main.0f46c185.chunk.css.map": "/prajaktabavikar/static/css/main.0f46c185.chunk.css.map",
-    "static/js/2.0657ed4e.chunk.js.LICENSE.txt": "/prajaktabavikar/static/js/2.0657ed4e.chunk.js.LICENSE.txt",
-    "static/media/brooklyn_praji.417d5c69.jpeg": "/prajaktabavikar/static/media/brooklyn_praji.417d5c69.jpeg",
-    "static/media/card-match.5108432e.png": "/prajaktabavikar/static/media/card-match.5108432e.png",
-    "static/media/meal-app.1bca5b7f.png": "/prajaktabavikar/static/media/meal-app.1bca5b7f.png",
-    "static/media/tweet-quote.7ab0d46c.png": "/prajaktabavikar/static/media/tweet-quote.7ab0d46c.png"
+    "main.css": "/prajaktabavikar.com/static/css/main.0f46c185.chunk.css",
+    "main.js": "/prajaktabavikar.com/static/js/main.92a966d8.chunk.js",
+    "main.js.map": "/prajaktabavikar.com/static/js/main.92a966d8.chunk.js.map",
+    "runtime-main.js": "/prajaktabavikar.com/static/js/runtime-main.2e066382.js",
+    "runtime-main.js.map": "/prajaktabavikar.com/static/js/runtime-main.2e066382.js.map",
+    "static/js/2.0657ed4e.chunk.js": "/prajaktabavikar.com/static/js/2.0657ed4e.chunk.js",
+    "static/js/2.0657ed4e.chunk.js.map": "/prajaktabavikar.com/static/js/2.0657ed4e.chunk.js.map",
+    "index.html": "/prajaktabavikar.com/index.html",
+    "static/css/main.0f46c185.chunk.css.map": "/prajaktabavikar.com/static/css/main.0f46c185.chunk.css.map",
+    "static/js/2.0657ed4e.chunk.js.LICENSE.txt": "/prajaktabavikar.com/static/js/2.0657ed4e.chunk.js.LICENSE.txt",
+    "static/media/brooklyn_praji.417d5c69.jpeg": "/prajaktabavikar.com/static/media/brooklyn_praji.417d5c69.jpeg",
+    "static/media/card-match.5108432e.png": "/prajaktabavikar.com/static/media/card-match.5108432e.png",
+    "static/media/meal-app.1bca5b7f.png": "/prajaktabavikar.com/static/media/meal-app.1bca5b7f.png",
+    "static/media/tweet-quote.7ab0d46c.png": "/prajaktabavikar.com/static/media/tweet-quote.7ab0d46c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cd59596.js",
+    "static/js/runtime-main.2e066382.js",
     "static/js/2.0657ed4e.chunk.js",
     "static/css/main.0f46c185.chunk.css",
     "static/js/main.92a966d8.chunk.js"
