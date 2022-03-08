@@ -74,7 +74,7 @@ const Projects = () => {
             <div className="desription-tags">
               <a
                 target="_blank"
-                https:href="https://prajbav.github.io/mealapp/"
+                href="https://prajbav.github.io/mealapp/"
                 rel="noreferrer"
               >
                 Demo
