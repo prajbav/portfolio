@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/prajaktabavikar.com/static/css/main.0f46c185.chunk.css",
-    "main.js": "/prajaktabavikar.com/static/js/main.4da51cce.chunk.js",
-    "main.js.map": "/prajaktabavikar.com/static/js/main.4da51cce.chunk.js.map",
+    "main.js": "/prajaktabavikar.com/static/js/main.bfd196d1.chunk.js",
+    "main.js.map": "/prajaktabavikar.com/static/js/main.bfd196d1.chunk.js.map",
     "runtime-main.js": "/prajaktabavikar.com/static/js/runtime-main.2e066382.js",
     "runtime-main.js.map": "/prajaktabavikar.com/static/js/runtime-main.2e066382.js.map",
     "static/js/2.0657ed4e.chunk.js": "/prajaktabavikar.com/static/js/2.0657ed4e.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2e066382.js",
     "static/js/2.0657ed4e.chunk.js",
     "static/css/main.0f46c185.chunk.css",
-    "static/js/main.4da51cce.chunk.js"
+    "static/js/main.bfd196d1.chunk.js"
   ]
 }
