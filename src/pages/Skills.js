@@ -36,14 +36,12 @@ const Skills = () => {
         <div className="skills-stack skills-separator1">
           {/* <div className="skills-separator1"> */}
           <span> I worked extensively on </span>
-          <div className="skill-icon">
-            <div className="react-progress"> React</div>
-          </div>
-          <div className="skill-icon">Javascript</div>
-          <div className="skill-icon">HTML</div>
-          <div className="skill-icon">CSS</div>
-          <div className="skill-icon">SASS</div>
-          <div className="skill-icon">backbone</div>
+          <div className="skill-icon react-progress">React</div>
+          <div className="skill-icon js-progress">Javascript</div>
+          <div className="skill-icon html-progress">HTML</div>
+          <div className="skill-icon css-progress">CSS</div>
+          <div className="skill-icon sass-progress">SASS</div>
+          <div className="skill-icon backbone-progress">backbone</div>
         </div>
 
         <div className="tools-stack ">

@@ -14,8 +14,9 @@
 }
 .project {
   /* flex: 0 4 50%; */
+  width: 50%;
   margin: 1rem;
-  border: 1px solid red;
+  border: 1px solid #4543d8;
   border-radius: 5%;
   /* border: 2px solid rgb(126, 88, 231); */
   box-shadow: inset 0 3px 6px rgb(76 80 177), 0 4px 6px rgb(79 98 221 / 45%);
@@ -25,8 +26,26 @@
 }
 
 .project img {
-  max-width: 30%;
+  width: 50%;
   object-fit: contain;
+}
+.desription-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.btn {
+  margin-bottom: 7px;
+  background-color: #4543d8;
+  text-decoration: none;
+  padding: 0.4rem 0.7rem;
+  margin-right: 5px;
+  transition: all 300ms ease-out;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 9px;
+  transition: all 300ms ease-out;
 }
 
 /* .text-centered {

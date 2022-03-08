@@ -1,8 +1,8 @@
 import React from "react";
 import { useNav } from "../customHooks/useNav";
-import cardmatch from "../rsc/card-match.png";
-import tweetquote from "../rsc/tweet-quote.png";
-import mealapp from "../rsc/meal-app.png";
+import cardmatch from "../rsc/card-match-mac.png";
+import tweetquote from "../rsc/tweet-quote-mac.png";
+import mealapp from "../rsc/meal-app-mac.png";
 import "../styles/project.css";
 
 const Projects = () => {
@@ -28,15 +28,17 @@ const Projects = () => {
                 target="_blank"
                 href="https://prajbav.github.io/memorygame/"
                 rel="noreferrer"
+                className="btn"
               >
                 Demo
               </a>
               <a
                 target="_blank"
-                href="htpps://github.com/prajbav/memorygame"
+                href="https://github.com/prajbav/memorygame"
                 rel="noreferrer"
+                className="btn"
               >
-                Code Repo
+                Code
               </a>
             </div>
           </div>
@@ -51,17 +53,19 @@ const Projects = () => {
             <div className="desription-tags">
               <a
                 target="_blank"
-                href="https://github.com/prajbav/quote-generator"
+                href="https://prajbav.github.io/quote-generator/"
                 rel="noreferrer"
+                className="btn"
               >
                 Demo
               </a>
               <a
                 target="_blank"
-                href="https://prajbav.github.io/quote-generator/"
+                href="https://github.com/prajbav/quote-generator"
                 rel="noreferrer"
+                className="btn"
               >
-                Code Repo
+                Code
               </a>
             </div>
           </div>
@@ -76,6 +80,7 @@ const Projects = () => {
                 target="_blank"
                 href="https://prajbav.github.io/mealapp/"
                 rel="noreferrer"
+                className="btn"
               >
                 Demo
               </a>
@@ -83,8 +88,9 @@ const Projects = () => {
                 target="_blank"
                 href="https://github.com/prajbav/mealapp"
                 rel="noreferrer"
+                className="btn"
               >
-                Code Repo
+                Code
               </a>
             </div>
           </div>
