@@ -74,14 +74,14 @@ const Projects = () => {
             <div className="desription-tags">
               <a
                 target="_blank"
-                href="https://github.com/prajbav/mealapp"
+                https:href="https://prajbav.github.io/mealapp/"
                 rel="noreferrer"
               >
                 Demo
               </a>
               <a
                 target="_blank"
-                href="https://github.com/prajbav"
+                href="https://github.com/prajbav/mealapp"
                 rel="noreferrer"
               >
                 Code Repo
