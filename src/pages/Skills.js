@@ -1,7 +1,6 @@
 import React from "react";
 import { useNav } from "../customHooks/useNav";
 import "../styles/skills.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const styles = {
   nameStyle: {

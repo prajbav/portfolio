@@ -3,8 +3,8 @@ import { useNav } from "../customHooks/useNav";
 import "./Page.css";
 import "../styles/About.css";
 import photo from "../rsc/brooklyn_praji.jpeg";
-
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+
 const styles = {
   inlineChild: {
     display: "inline-block",
@@ -40,13 +40,21 @@ const About = () => {
         </div>
       </div>
       <div className="social">
-        <a target="_blank" href="https://www.linkedin.com/in/prajaktabavikar/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/prajaktabavikar/"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a target="_blank" href="https://github.com/prajbav">
+        <a target="_blank" href="https://github.com/prajbav" rel="noreferrer">
           <FaGithub />
         </a>
-        <a target="_blank" href="mailto:prajakta.bavikar@gmail.com">
+        <a
+          target="_blank"
+          href="mailto:prajakta.bavikar@gmail.com"
+          rel="noreferrer"
+        >
           <FaEnvelope />
         </a>
       </div>

@@ -23,7 +23,22 @@ const Projects = () => {
             <span>
               A simple card flip and match memory game specially for kids
             </span>
-            <div className="technologies-used"> </div>
+            <div className="desription-tags">
+              <a
+                target="_blank"
+                href="https://prajbav.github.io/memorygame/"
+                rel="noreferrer"
+              >
+                Demo
+              </a>
+              <a
+                target="_blank"
+                href="htpps://github.com/prajbav/memorygame"
+                rel="noreferrer"
+              >
+                Code Repo
+              </a>
+            </div>
           </div>
         </div>
 
@@ -33,7 +48,22 @@ const Projects = () => {
             <span>
               App to fetch and tweet some quotes to make your day better{" "}
             </span>
-            <div className="technologies-used"> </div>
+            <div className="desription-tags">
+              <a
+                target="_blank"
+                href="https://github.com/prajbav/quote-generator"
+                rel="noreferrer"
+              >
+                Demo
+              </a>
+              <a
+                target="_blank"
+                href="https://prajbav.github.io/quote-generator/"
+                rel="noreferrer"
+              >
+                Code Repo
+              </a>
+            </div>
           </div>
         </div>
 
@@ -41,29 +71,22 @@ const Projects = () => {
           <img className="project-screen" alt="" src={mealapp} />
           <div className="project-description">
             <span>Feel free to order your meals now! </span>
-            <div className="technologies-used"> </div>
-          </div>
-        </div>
-        <div className="project">
-          <img className="project-screen" alt="" src={cardmatch} />
-
-          <div className="project-description">
-            <span>Card Match </span>
-            <div className="technologies-used"> </div>
-          </div>
-        </div>
-        <div className="project">
-          <img className="project-screen" alt="" src={tweetquote} />
-          <div className="project-description">
-            <span>Tweet Quotes </span>
-            <div className="technologies-used"> </div>
-          </div>
-        </div>
-        <div className="project">
-          <img className="project-screen" alt="" src={mealapp} />
-          <div className="project-description">
-            <span>Coming soon </span>
-            <div className="technologies-used"> </div>
+            <div className="desription-tags">
+              <a
+                target="_blank"
+                href="https://github.com/prajbav/mealapp"
+                rel="noreferrer"
+              >
+                Demo
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/prajbav"
+                rel="noreferrer"
+              >
+                Code Repo
+              </a>
+            </div>
           </div>
         </div>
       </div>
