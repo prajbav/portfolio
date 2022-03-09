@@ -6,7 +6,7 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: row;
   /* flex-wrap: wrap; */
   flex-basis: auto;
@@ -14,7 +14,7 @@
 }
 .project {
   /* flex: 0 4 50%; */
-  width: 50%;
+  width: 80%;
   margin: 1rem;
   border: 1px solid #4543d8;
   border-radius: 5%;

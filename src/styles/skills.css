@@ -25,6 +25,7 @@
   background-color: #ebdef7;
   /* padding: 10vh 15%; */
   border-radius: 5%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 /* progress : linear-gradient(89deg, #c0c0e9 90%, #e9eced 90%) */
 .skill-icon {

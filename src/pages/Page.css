@@ -1,13 +1,14 @@
 section {
-  display: block;
-  /* align-items: center;
-  justify-content: center; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
   height: auto;
   width: 100%;
   border-bottom: 1px solid lightgrey;
   padding: 5%;
   /* flex-direction: column; */
-  /* margin-top: 10vh; */
+  padding-top: 10vh;
+  margin: 0 auto;
 }
 
 /* section:nth-child(even) {
