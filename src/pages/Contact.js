@@ -38,37 +38,41 @@ const Contact = () => {
 
   return (
     <section ref={contactRef} id="contactContainer">
-      {/* <div className="contact-background"> */}
       <div className="contact-form">
-        <form>
-          <h2>Lets Connect!</h2>
-          <div className="form-group">
-            <div className="fullname">
-              <input
-                className="input-firstname"
-                type="text"
-                required
-                name="firstname"
-              />
-              <input
-                className="input-lastname"
-                type="text"
-                required
-                name="lastname"
-              />
-            </div>
-            <input className="input-email" type="email" required name="email" />
-            {/* </div> */}
-            {/* <div className="form-group"> */}
-            <textarea className="text-content" required name="message" />
+        {/* <form> */}
 
-            <button type="submit" className="btn-submit" onSubmit={onSubmit}>
-              Send
-            </button>
-            {/* <div className="response">{response ? <Response /> : null} </div> */}
-          </div>
-        </form>
-        {/* </div> */}
+        <h4>Thanks for visiting my portfolio. Contact me if you are hiring.</h4>
+        <div className="form-group">
+          <input
+            className="input-fullname"
+            type="text"
+            required
+            name="fullname"
+            placeholder="Name"
+          />
+
+          <input
+            className="input-email"
+            type="email"
+            required
+            name="email"
+            placeholder="Email"
+          />
+          {/* </div> */}
+          {/* <div className="form-group"> */}
+          <textarea
+            className="text-content"
+            required
+            name="message"
+            placeholder="Message"
+          />
+
+          <button type="submit" className="btn-submit" onSubmit={onSubmit}>
+            Send Message
+          </button>
+          {/* <div className="response">{response ? <Response /> : null} </div> */}
+        </div>
+        {/* </form> */}
       </div>
     </section>
   );

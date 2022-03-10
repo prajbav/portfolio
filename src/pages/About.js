@@ -16,6 +16,7 @@ const styles = {
     alignItems: "center",
   },
 };
+
 const About = () => {
   // useNav takes in a navLinkId and returns a ref
   // this ref is used to register the navLinkId that's
@@ -30,13 +31,21 @@ const About = () => {
         <img className="about-photo" alt="my" src={photo} />
 
         <div className="about-details" style={styles.nameStyle}>
-          <p>Hello, I am Prajakta Bavikar from New Jersey.</p>
+          <p>Hello, I am Prajakta Bavikar.</p>
+          <br />
           <p>
             I am a front end developer, focuesd on building functional and
             interactive front end components. I like using React and
             Javascript,and I also have experience of back end technologies.
           </p>
+          <br />
           <p>I keep doing side projects to keep learning new skills. </p>
+          <br />
+          <p>
+            {" "}
+            Currently, I am looking for a position as a front-end or full-stack
+            developer.
+          </p>
         </div>
       </div>
       <div className="social">
