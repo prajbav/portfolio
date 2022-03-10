@@ -11,7 +11,7 @@ import {
   FaSass,
   FaGithub,
 } from "react-icons/fa";
-import redux from "../rsc/redux.svg";
+// import redux from "../rsc/redux.svg";
 
 const styles = {
   nameStyle: {
