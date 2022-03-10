@@ -11,6 +11,7 @@ import {
   FaSass,
   FaGithub,
 } from "react-icons/fa";
+import redux from "../rsc/redux.svg";
 
 const styles = {
   nameStyle: {
@@ -68,13 +69,17 @@ const Skills = () => {
             <div className="skill-icon">
               <FaGithub /> <span>Git </span>
             </div>
+            <div className="skill-icon">
+              <span> </span>
+              Redux
+            </div>
           </div>
         </div>
 
         <div className="tools-stack ">
           <span className="desc"> I worked closely with </span>
           <div className="stack-items">
-            <div className="skill-icon">Redux</div>
+            <div className="skill-icon">Microservices</div>
             <div className="skill-icon">C#</div>
             <div className="skill-icon">SQL</div>
             <div className="skill-icon">Node.JS</div>
@@ -87,10 +92,10 @@ const Skills = () => {
         <div className="skills-stack ">
           <span className="desc"> Skills </span>
           <div className="desc">
-            Semantic HTML - Responsive Design - DOM manipulation - UI
-            Engineering - OOP - MVC - RESTful APIs - TDD / BDD - Unit Testing -
-            Refactoring - Deployment - Relational Databases - Version Control -
-            Git Flow - Pair Programming - Wireframing
+            Semantic UI - Responsive Design - DOM manipulation - UI Engineering
+            - OOP - MVC - RESTful APIs - Unit Testing - Refactoring - Deployment
+            - Relational Databases - Version Control - Git Flow - Pair
+            Programming - Wireframing
           </div>
         </div>
       </div>

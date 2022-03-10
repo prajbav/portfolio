@@ -40,7 +40,6 @@ const Contact = () => {
     <section ref={contactRef} id="contactContainer">
       <div className="contact-form">
         {/* <form> */}
-
         <h4>Thanks for visiting my portfolio. Contact me if you are hiring.</h4>
         <div className="form-group">
           <input

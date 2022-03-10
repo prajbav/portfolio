@@ -26,8 +26,11 @@
 }
 
 .project img {
-  /* width: 50%; */
+  width: 30%;
   object-fit: contain;
+}
+.project-description {
+  width: 70%;
 }
 .desription-tags {
   display: flex;
